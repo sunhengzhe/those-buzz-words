@@ -62,3 +62,9 @@ AOF 和 RDB 是 redis 的两种持久化策略。
 **Append Only File** 即每次操作完都往日志里添加（Append）一条记录，因为这个文件记录了历史的操作，所以根据这个文件，你总能恢复数据到指定位置的数据。
 
 **Redis Database Backup file** 即数据库的备份文件（数据快照），可以每隔一段时间备份一次，那么根据这个文件，你总能恢复数据到一个固定时间点上。
+
+## etcd
+
+"etcd" 这个名字来源于两个想法，unix 的 "/etc" 目录和 "d"istibuted 系统（分布式系统）。"/etc" 目录是一个单一系统存放配置的地方，而 etcd 为大规模分布式系统存储配置。因此，"**d**" istributed "**/etc**" 就是 "etcd"。
+
+> [原文](https://coreos.com/etcd/docs/latest/learning/why.html): The name "etcd" originated from two ideas, the unix "/etc" folder and "d"istibuted systems. The "/etc" folder is a place to store configuration data for a single system whereas etcd stores configuration information for large scale distributed systems. Hence, a "d"istributed "/etc" is "etcd".
