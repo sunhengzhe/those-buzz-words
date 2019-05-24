@@ -43,13 +43,6 @@
 
 那么你也就能理解为什么 **肯定顺序环视**（positive lookahead）会被称为 **零宽正向先行断言**（zero-width positive lookahead assertion）了。
 
-## 算法
-
-| 英文 | 中文 |
-| --- | --- |
-| Dynamic Programming | 动态规划 |
-| Divide and Conquer | 分治法 |
-
 ## Redis
 
 | 缩写 | 全写 |
@@ -68,3 +61,18 @@ AOF 和 RDB 是 redis 的两种持久化策略。
 "etcd" 这个名字来源于两个想法，unix 的 "/etc" 目录和 "d"istibuted 系统（分布式系统）。"/etc" 目录是一个单一系统存放配置的地方，而 etcd 为大规模分布式系统存储配置。因此，"**d**" istributed "**/etc**" 就是 "etcd"。
 
 > [原文](https://coreos.com/etcd/docs/latest/learning/why.html): The name "etcd" originated from two ideas, the unix "/etc" folder and "d"istibuted systems. The "/etc" folder is a place to store configuration data for a single system whereas etcd stores configuration information for large scale distributed systems. Hence, a "d"istributed "/etc" is "etcd".
+
+## 函数
+
+| 英文 | 中文 |
+| --- | --- |
+| Predicate | 谓词 |
+
+谓词指的是一种返回 `true` 或 `false` 的函数，本质上含义就是“判断输入是否满足条件”。
+
+## 算法
+
+| 英文 | 中文 |
+| --- | --- |
+| Dynamic Programming | 动态规划 |
+| Divide and Conquer | 分治法 |
